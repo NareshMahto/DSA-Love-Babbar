@@ -63,7 +63,7 @@ class FirstandLast{
         }
         lo = 0;
         hi = n-1;
-        // to find first index
+        // to find last index
         while (lo <= hi){
             int mid = (lo + hi) / 2;
             if (arr[mid] == t){
